@@ -1,0 +1,13 @@
+nome = input("Digite um nome completo:")
+primeiro_nome = nome.split()
+
+print(''.center(40,'-'))
+print(nome.center(40,'-'))
+print()
+print(f"Analisando o nome...")
+print(f"Nome em Maiuscula: {nome.upper()}")
+print(f"Nome em minuscula: {nome.lower()}")
+print(f"Nome capitalizado: {nome.capitalize()}")
+print(f"Nome titulado: {nome.title()}")
+print(f"O nome possue {len(nome) - nome.count(' ')} caracteres.")
+print(f"Seu primeiro nome é: {primeiro_nome[0]} e tem {len(primeiro_nome[0])} caracteres.")

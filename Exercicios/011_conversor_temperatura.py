@@ -1,0 +1,7 @@
+print()
+temperatura = float(input('Digite a temperatura em °C:'))
+print()
+print('A temperatura atual é de: {:.2f}°C'.format(temperatura))
+print('A temperatura em Fareneight é de: {:.2f}°F'.format((temperatura*(9/5)+32)))
+print('A temperatura em Kelvin é de: {:.2f}'.format(temperatura+273.15))
+print()

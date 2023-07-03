@@ -8,8 +8,10 @@ print(7-8)
 print(4*6)
 
 #divisão
-print(12/3)
-print(12//3)
+print(14.9/3)
+print(14.9//3)
+
+
 
 #módulo
 print(10%3)
